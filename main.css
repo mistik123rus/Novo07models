@@ -235,3 +235,22 @@
     object-fit: cover;
     object-position: 50% 50%;
 }
+/*-----------------------CONTAKTY-------------------------*/
+.kontakttekst{
+    font-family: fantasy;
+    font-size: xx-large;
+    text-align: center;
+}
+.kontakt{
+    display: flex;
+}
+.adres{
+    font-size: x-large;
+    margin-top: 3rem;
+    font-family: fantasy;
+}
+.telefon{
+    font-size: x-large;
+    margin-top: 3rem;
+    font-family: fantasy;
+}
