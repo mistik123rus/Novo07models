@@ -240,6 +240,7 @@
     font-family: fantasy;
     font-size: xx-large;
     text-align: center;
+    margin-top: 3rem;
 }
 .kontakt{
     display: flex;
@@ -260,3 +261,6 @@
 .obertkasocialok{
     margin-top: 3rem;
 }
+#vk_groups iframe {
+    width: 100%!important;
+  }

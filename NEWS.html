@@ -38,7 +38,7 @@
             </div>
 
             <a id="onas" class="btn btn" href="">About Us</a>
-            <a id="news" class="btn btn" href="./NEWS.html">News</a>
+            <a id="news" class="btn btn" href="">News</a>
             <a id="kontakt" class="btn btn" href="./index-kontakt.html">Contact</a>
             <a id="navi" class="btn btn" href="">Become a Model</a>
 
@@ -47,66 +47,17 @@
       </nav>
 
     </div>
-<div class="carouselcentr">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide carouselmarjin" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="slaid">
-          <img src="./images/PHOTO TANDEM/1.jpg" class="normalise" alt="...">
-          <img src="./images/PHOTO TANDEM/2.jpg" class="normalise" alt="...">
-          
-        </div>
-        </div>
-        <div class="carousel-item">
-          <div class="slaid">
-            <img src="./images/PHOTO TANDEM/3.jpg" class="normalise" alt="...">
-          <img src="./images/PHOTO TANDEM/4.jpg" class="normalise" alt="...">
-          
-        </div>
-        </div>
-        <div class="carousel-item">
-          <div class="slaid">
-            <img src="./images/PHOTO TANDEM/5.jpg" class="normalise" alt="...">
-          <img src="./images/PHOTO TANDEM/6.jpg" class="normalise" alt="...">
-          
-        </div>
-        </div>
-        <div class="carousel-item">
-          <div class="slaid">
-            <img src="./images/PHOTO TANDEM/7.jpg" class="normalise" alt="...">
-          <img src="./images/PHOTO TANDEM/8.jpg" class="normalise" alt="...">
-          
-        </div>
-        </div>
-        <div class="carousel-item">
-          <div class="slaid">
-            <img src="./images/PHOTO TANDEM/9.jpg" class="normalise" alt="...">
-            <img src="./images/PHOTO TANDEM/10.jpg" class="normalise" alt="...">
-         
-          
-        </div>
-        </div>
-        <div class="carousel-item">
-          <div class="slaid">
-            <img src="./images/PHOTO TANDEM/11.jpg" class="normalise" alt="...">
-            <img src="./images/PHOTO TANDEM/12.jpg" class="normalise" alt="...">
-          
-        </div>
-        </div>
+<div class="vknews">
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
 
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Предыдущий</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Следующий</span>
-      </button>
-    </div>
-  </div>
+<!-- VK Widget -->
+<div id="vk_groups"></div>
+<script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 4, wide: 2, height: "600"}, 42225502);
+</script>
+</div>
+    
+
     <div class="futeroz row">
       <div class="widwnes"><a href="https://vk.com/club42225502" target="_blank">
           <img class="logos" src="./images/Logo.jpg"></a>
@@ -141,6 +92,13 @@
 
   </div>
   <script src="./togl.js"></script>
+  <script src="https://vk.com/js/api/openapi.js?169" type="text/javascript"></script>
+  <script type="text/javascript">
+    VK.init({
+      apiId: 8178795,
+      onlyWidgets: true
+    });
+</script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
