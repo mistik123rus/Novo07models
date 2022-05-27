@@ -261,6 +261,8 @@
 .obertkasocialok{
     margin-top: 3rem;
 }
-#vk_groups iframe {
-    width: 100%!important;
-  }
+.vknews{
+    display: flex;
+    justify-content: flex-end;
+
+}
