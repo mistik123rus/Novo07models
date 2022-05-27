@@ -1,0 +1,235 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.rovbtn {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+.slaid{
+    display: flex;
+    max-height: 40rem;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.normalise{
+    max-width: 30rem;
+}
+.model {
+    position: relative;
+}
+
+.btn {
+    color: #000000;
+    font-size: 1.3rem;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    background-color: rgb(0 0 0);
+    color: rgb(255 255 255);
+}
+
+.bodhi {
+    font-size: 25px;
+    margin-top: auto;
+    padding: 2px;
+    font-family: fantasy;
+    font-weight: 400;
+    font-style: italic;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.toglmod {
+    display: none;
+
+}
+
+.model {
+    pointer-events: visible;
+}
+
+.toglmod-activ {
+    pointer-events: all;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    position: absolute;
+    width: 5rem;
+    background: #ffffff;
+}
+
+.textformated {
+    font-size: 1.3rem;
+    font-family: monospace;
+}
+
+.fancybox__button--zoom {
+    display: none;
+}
+
+.fancybox__button--slideshow {
+    display: none;
+}
+
+.fancybox__button--fullscreen {
+    display: none;
+}
+
+.widwnes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.futersocialicon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.socialicon {
+    text-decoration: none;
+}
+
+.socialiconpng {
+    width: 45px;
+    margin-top: 2rem;
+}
+
+.logos {
+    margin-top: 1rem;
+}
+
+/* ------------------------TITLE MODEL GIRL---------------------*/
+.titlebasamodeli1 {
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: cursive;
+}
+
+.v1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: xx-large;
+    font-family: 'Lobster';
+}
+
+.v1>a>img {
+    max-width: 320px;
+}
+
+/*---------------------MODELALLMENU-------------*/
+.menuallmodel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.allmodel {
+    max-width: 350px;
+    max-height: 29rem;
+}
+
+.men::after {
+    content: "MEN";
+    display: inline-block;
+    position: absolute;
+    bottom: 25%;
+    text-align: center;
+    color: aliceblue;
+    font-size: xxx-large;
+    font-family: emoji;
+    font-weight: bold;
+    left: 10%;
+}
+
+.girl::after {
+    content: "WOMEN";
+    display: inline-block;
+    position: absolute;
+    bottom: 25%;
+    text-align: center;
+    color: aliceblue;
+    font-size: xxx-large;
+    font-family: emoji;
+    font-weight: bold;
+    left: 10%;
+}
+
+.kids::after {
+    content: "KIDS";
+    display: inline-block;
+    position: absolute;
+    bottom: 25%;
+    text-align: center;
+    color: aliceblue;
+    font-size: xxx-large;
+    font-family: emoji;
+    font-weight: bold;
+    left: 10%;
+}
+
+.blok {
+    position: relative;
+}
+
+
+/*model1----------------------------*/
+.girl1 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 4rem;
+}
+
+.mod1 {
+    font-size: 2rem;
+}
+
+
+.basamodel1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 1px;
+
+}
+
+.rovrov {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.li {
+    margin: 1px;
+    max-width: 350px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
