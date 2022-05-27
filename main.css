@@ -243,7 +243,10 @@
 }
 .kontakt{
     display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
 }
+
 .adres{
     font-size: x-large;
     margin-top: 3rem;
