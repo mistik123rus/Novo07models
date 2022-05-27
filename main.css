@@ -9,8 +9,9 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
-
+.carouselcentr{
+    margin-top: 3rem;
+}
 
 .slaid{
     display: flex;
