@@ -9,11 +9,12 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.carouselcentr{
+
+.carouselcentr {
     margin-top: 3rem;
 }
 
-.slaid{
+.slaid {
     display: flex;
     max-height: 40rem;
     justify-content: space-evenly;
@@ -21,9 +22,11 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-.normalise{
+
+.normalise {
     max-width: 30rem;
 }
+
 .model {
     position: relative;
 }
@@ -235,34 +238,39 @@
     object-fit: cover;
     object-position: 50% 50%;
 }
+
 /*-----------------------CONTAKTY-------------------------*/
-.kontakttekst{
+.kontakttekst {
     font-family: fantasy;
     font-size: xx-large;
     text-align: center;
     margin-top: 3rem;
 }
-.kontakt{
+
+.kontakt {
     display: flex;
     margin-top: 3rem;
     justify-content: space-between;
 }
 
-.adres{
+.adres {
     font-size: x-large;
     margin-top: 3rem;
     font-family: fantasy;
 }
-.telefon{
+
+.telefon {
     font-size: x-large;
     margin-top: 3rem;
     font-family: fantasy;
 }
-.obertkasocialok{
+
+.obertkasocialok {
     margin-top: 3rem;
 }
-.vknews{
+
+.vknews {
     display: flex;
     justify-content: flex-end;
-
+    margin: 3rem;
 }
