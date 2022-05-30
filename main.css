@@ -56,7 +56,7 @@
 
 .toglmod-activ {
     pointer-events: all;
-    display: flex;
+    display: none;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: space-around;
@@ -279,7 +279,7 @@
 .obertkasocialok {
     margin-top: 3rem;
 }
-
+/*---------------------------NEWS-------------------------------*/
 .vknews {
     display: flex;
     justify-content: flex-end;
@@ -287,6 +287,20 @@
 }
 .vknevsblok2{
     margin-top: 3rem;
-    flex: 50%;
+
     font-size: xxx-large;
+}
+
+.btn.btn{
+    width: 100%;
+}
+@media screen and (min-width:992px) {
+    .toglmod-activ{
+        display: flex;
+    }
+    
+
+    .btn.btn{
+        width: auto;
+    }
 }
