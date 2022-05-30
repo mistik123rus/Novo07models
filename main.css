@@ -43,20 +43,7 @@
     color: rgb(255 255 255);
 }
 
-.bodhi {
-    font-size: 25px;
-    margin-top: auto;
-    padding: 2px;
-    font-family: fantasy;
-    font-weight: 400;
-    font-style: italic;
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
+
 
 .toglmod {
     display: none;
@@ -102,7 +89,7 @@
     justify-content: space-evenly;
     align-items: flex-start;
 }
-
+/*-------------------------------FUTERRR--------------*/
 
 .futersocialicon {
     display: flex;
@@ -123,7 +110,47 @@
 .logos {
     margin-top: 1rem;
 }
-
+.bodhi {
+    font-size: 25px;
+    margin-top: auto;
+    padding: 2px;
+    font-family: fantasy;
+    font-weight: 400;
+    font-style: italic;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 4rem;
+}
+.futeroz{
+    background-color: black;
+}
+.logotipo{
+    background-color: white;
+}
+.widwes{
+    text-decoration: none;
+    color: black;
+}
+.cif{
+    font-size: 7rem;
+    text-align: center;
+    height: 9rem;
+    
+    display: flex;
+  
+    flex-direction: column-reverse;
+}
+.teht{
+    font-size: 2.1rem;
+    text-align: center;
+}
+.nomer{
+    font-size: 1.5rem;
+}
 /* ------------------------TITLE MODEL GIRL---------------------*/
 .titlebasamodeli1 {
     font-size: 1.4rem;
