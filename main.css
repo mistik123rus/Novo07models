@@ -110,6 +110,7 @@
 .logos {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    max-width: 25rem;
 }
 .bodhi {
     font-size: 25px;
